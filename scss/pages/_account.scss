@@ -1,0 +1,237 @@
+.account-page {
+  .head-main {
+    width: 1519px;
+    height: 120px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 99;
+    background: #7d7d7d;
+    a {
+      padding-left: 150px;
+    }
+    .head-items {
+      display: flex;
+      align-items: center;
+      padding-left: 30px;
+      input {
+        width: 443px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        border: 1px solid var(--Text-In-Field, #ccc);
+      }
+      .menu {
+        padding-left: 40px;
+        a {
+          text-decoration: none;
+          padding-left: 50px;
+          color: var(--Text-Tittle, #fff);
+          font-family: "Montserrat", sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 32px; /* 200% */
+        }
+      }
+      .login {
+        margin-left: 50px;
+        display: inline-flex;
+        padding: 8px 32px;
+        align-items: flex-start;
+        gap: 10px;
+        background: none;
+        border-radius: 8px;
+        border: 1px solid var(--Text-Tittle, #ffffff);
+        color: var(--Text-Tittle, #fff);
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px; /* 200% */
+      }
+      .login:hover {
+        background: var(--Primary-Pink, #ff0073);
+        color: var(--Other-white, #fff);
+        transition: 0.3s;
+        border: none;
+      }
+      svg {
+        margin-left: -40px;
+      }
+    }
+    a {
+    }
+  }
+  .account {
+    display: flex;
+    align-items: center;
+    padding-left: 48px;
+    gap: 8px;
+    p {
+      color: var(--Text-white, #fff);
+      font-family: "Montserrat" . sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 171.429% */
+    }
+  }
+  .account-bg {
+    width: 1519px;
+    height: 300px;
+    flex-shrink: 0;
+    opacity: 0.5;
+    background: var(--other-overlay-50, #000);
+  }
+  .account-main {
+    .account-content {
+      .profil {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        padding-top: 48px;
+        .profil-text {
+          h1 {
+            color: var(--Text-Tittle, #1c3554);
+            font-variant-numeric: lining-nums proportional-nums;
+            font-family: "Rubik", sans-serif;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 48px; /* 150% */
+            text-transform: capitalize;
+          }
+          p {
+            color: var(--Text-Body, #808080);
+            font-variant-numeric: lining-nums proportional-nums;
+            font-family: "Rubik" sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 150% */
+            text-transform: capitalize;
+          }
+        }
+      }
+      .account-menu {
+        .menu {
+          padding-top: 64px;
+          a {
+            color: var(--Text-Body, #808080);
+            font-family: "Rubik" sans-serif;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            padding-left: 203px;
+            line-height: 48px; /* 150% */
+          }
+          a:hover {
+            color: var(--Text-Tittle, #1c3554);
+            transition: 0.3s;
+            font-size: 32px;
+            font-weight: 500;
+            text-decoration: underline #f72585;
+          }
+        }
+      }
+      .account-cards {
+        display: flex;
+        gap: 16px;
+        padding-top: 32px;
+        .card {
+          width: 295px;
+          height: 427px;
+          flex-shrink: 0;
+          padding-top: 16px;
+          padding-left: 17px;
+          border-radius: 8px;
+          background: var(--Other-white, #fff);
+          .placeholder {
+            width: 262px;
+            height: 208px;
+            text-align: center;
+            flex-shrink: 0;
+            border-radius: 4px;
+            background: var(--Text-In-Field, #ccc);
+          }
+          .card-text {
+            margin-top: 197px;
+            display: inline-flex;
+            padding: 4px 24px;
+            align-items: flex-start;
+            gap: 10px;
+            border-radius: 8px;
+            background: var(--Other-Blue, #4586d6);
+            p {
+              color: var(--Text-white, #fff);
+              font-family: "Montserrat", sans-serif;
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 24px; /* 200% */
+            }
+          }
+          h1 {
+            width: 262.891px;
+            color: var(--Text-Tittle, #1c3554);
+            font-variant-numeric: lining-nums proportional-nums;
+            font-family: "Rubik", sans-serif;
+            font-size: 16px;
+            padding-top: 30px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 150% */
+            text-transform: capitalize;
+          }
+          p {
+            color: var(--Primary-Pink, #f72585);
+            font-family: "Montserrat", sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; /* 200% */
+          }
+          .stars {
+            display: flex;
+            align-items: center;
+            padding-top: 12px;
+            p {
+              color: var(--Text-Body, #808080);
+              font-family: "Montserrat", sans-serif;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 24px; /* 171.429% */
+            }
+          }
+          .sale {
+            h1 {
+              color: var(--Text-Tittle, #1c3554);
+              font-family: "Rubik", sans-serif;
+              font-size: 24px;
+              font-style: normal;
+              font-weight: 500;
+
+              line-height: 32px; /* 133.333% */
+            }
+            span {
+              color: var(--Text-In-Field, #ccc);
+              font-family: "Montserrat", sans-serif;
+              font-size: 16px;
+              text-decoration: line-through;
+              font-style: normal;
+              font-weight: 400;
+              padding-right: 10px;
+              line-height: 27px; /* 168.75% */
+            }
+          }
+        }
+        .card:hover {
+          filter: drop-shadow(40px 40px 57px rgba(0, 0, 0, 0.1));
+          transition: 0.3s;
+        }
+      }
+    }
+  }
+}
